@@ -6,10 +6,10 @@ group 'org.javaf'
 version '1.0-SNAPSHOT'
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    compileOnly group: 'junit', name: 'junit', version: '4.12'
 }
